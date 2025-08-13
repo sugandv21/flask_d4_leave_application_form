@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Home | Leave Application{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+    <h1>Welcome to the Leave Application Portal</h1>
+    <p class="lead">Submit your leave request easily.</p>
+    <a href="{{ url_for('leave') }}" class="btn btn-primary">Apply for Leave</a>
+</div>
+{% endblock %}
